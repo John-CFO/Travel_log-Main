@@ -1,0 +1,792 @@
+.deals{
+    position: relative;
+    display: flex;
+    backdrop-filter: blur(8px);
+    border-top: 1px solid rgba(255, 255, 255, 0.294);
+    border-left: 1px solid rgba(255, 255, 255, 0.294);
+    box-shadow: 3px, 3px, 3px rgba(0, 0, 0, 0.09);
+    top: 1800px;
+    border-radius: 15px;
+    height: 700px;
+    width: 1500px;
+}
+
+
+.grid-container {
+  display: grid;
+  margin: 15px auto;
+  width: 1800px;
+  
+  height: 650px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px;
+  gap: 30px;
+  grid-template-areas: "item-1 item-2 item-3 item-4 item-5 item-6" 
+                      "item-7 item-8 item-9 item-10 item-11 item-12";
+  
+}                       
+  /*Card-Titel*/
+.title{
+  color: white;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 250px;
+  
+}
+
+   /* Deal-Cards*/
+
+   .item-1 {
+    display: grid;
+    grid-area: item-1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card_box-1 {
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    background-image: url(deals/hono.jpg);
+    display: inline-block;
+    object-fit: cover;
+    background-size: cover;
+    position: relative;
+    box-shadow: 0 25px 50px rgba(0,0,0,0.55);
+    cursor: pointer;
+    
+    
+  }
+
+  .card_box-1 span {
+    position: absolute;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    top: -10px;
+    left: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card_box-1 span::before {
+    content: '12 Days / 659$';
+    position: absolute;
+    width: 150%;
+    height: 40px;
+    background-image: linear-gradient(45deg, #ff6547 0%, #ffb144  51%, #ff7053  100%);
+    transform: rotate(-45deg) translateY(-20px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.23);
+  }
+
+  
+
+
+
+
+
+
+
+
+  .item-2 {
+    display: grid;
+    grid-area: item-2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .card_box-2 {
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    background-image: url(deals/sardinien.jpg);
+    display: inline-block;
+    object-fit: cover;
+    background-size: cover;
+    position: relative;
+    box-shadow: 0 25px 50px rgba(0,0,0,0.55);
+    cursor: pointer;
+    
+    
+  }
+
+  .card_box-2 span {
+    position: absolute;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    top: -10px;
+    left: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card_box-2 span::before {
+    content: '5 Days / 279$';
+    position: absolute;
+    width: 150%;
+    height: 40px;
+    background-image: linear-gradient(45deg, #ff6547 0%, #ffb144  51%, #ff7053  100%);
+    transform: rotate(-45deg) translateY(-20px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.23);
+  }
+
+  
+
+
+
+
+
+
+
+
+  .item-3 {
+    display: grid;
+    grid-area: item-3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .card_box-3 {
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    background-image: url(deals/machu.jpg);
+    display: inline-block;
+    object-fit: cover;
+    background-size: cover;
+    position: relative;
+    box-shadow: 0 25px 50px rgba(0,0,0,0.55);
+    cursor: pointer;
+    
+    
+  }
+
+  .card_box-3 span {
+    position: absolute;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    top: -10px;
+    left: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card_box-3 span::before {
+    content: '7 Days / 749$';
+    position: absolute;
+    width: 150%;
+    height: 40px;
+    background-image: linear-gradient(45deg, #ff6547 0%, #ffb144  51%, #ff7053  100%);
+    transform: rotate(-45deg) translateY(-20px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.23);
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .item-4 {
+    display: grid;
+    grid-area: item-4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .card_box-4 {
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    background-image: url(deals/rotterdam.jpg);
+    display: inline-block;
+    object-fit: cover;
+    background-size: cover;
+    position: relative;
+    box-shadow: 0 25px 50px rgba(0,0,0,0.55);
+    cursor: pointer;
+    
+    
+  }
+
+  .card_box-4 span {
+    position: absolute;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    top: -10px;
+    left: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card_box-4 span::before {
+    content: '5 Days / 489$';
+    position: absolute;
+    width: 150%;
+    height: 40px;
+    background-image: linear-gradient(45deg, #ff6547 0%, #ffb144  51%, #ff7053  100%);
+    transform: rotate(-45deg) translateY(-20px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.23);
+  }
+
+  
+
+
+
+
+
+
+
+
+
+  .item-5 {
+    display: grid;
+    grid-area: item-5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .card_box-5 {
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    background-image: url(deals/uttar.jpg);
+    display: inline-block;
+    object-fit: cover;
+    background-size: cover;
+    position: relative;
+    box-shadow: 0 25px 50px rgba(0,0,0,0.55);
+    cursor: pointer;
+    
+    
+  }
+ 
+  .card_box-5 span {
+    position: absolute;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    top: -10px;
+    left: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card_box-5 span::before {
+    content: '12 Days / 529$';
+    position: absolute;
+    width: 150%;
+    height: 40px;
+    background-image: linear-gradient(45deg, #ff6547 0%, #ffb144  51%, #ff7053  100%);
+    transform: rotate(-45deg) translateY(-20px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.23);
+  }
+
+  
+
+
+
+
+
+
+
+
+
+  .item-6 {
+    display: grid;
+    grid-area: item-6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .card_box-6 {
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    background-image: url(deals/york.jpg);
+    display: inline-block;
+    object-fit: cover;
+    background-size: cover;
+    position: relative;
+    box-shadow: 0 25px 50px rgba(0,0,0,0.55);
+    cursor: pointer;
+    
+    
+  }
+
+  .card_box-6 span {
+    position: absolute;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    top: -10px;
+    left: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card_box-6 span::before {
+    content: '14 Days / 2379$';
+    position: absolute;
+    width: 150%;
+    height: 40px;
+    background-image: linear-gradient(45deg, #ff6547 0%, #ffb144  51%, #ff7053  100%);
+    transform: rotate(-45deg) translateY(-20px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.23);
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  .item-7 {
+    display: grid;
+    grid-area: item-7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .card_box-7 {
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    background-image: url(deals/gran.jpg);
+    display: inline-block;
+    object-fit: cover;
+    background-size: cover;
+    position: relative;
+    box-shadow: 0 25px 50px rgba(0,0,0,0.55);
+    cursor: pointer;
+    
+    
+  }
+
+  .card_box-7 span {
+    position: absolute;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    top: -10px;
+    left: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card_box-7 span::before {
+    content: 'Premium';
+    position: absolute;
+    width: 150%;
+    height: 40px;
+    background-image: linear-gradient(45deg, #ff6547 0%, #ffb144  51%, #ff7053  100%);
+    transform: rotate(-45deg) translateY(-20px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.23);
+  }
+
+  
+
+
+
+
+
+
+
+
+
+  .item-8 {
+    display: grid;
+    grid-area: item-8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .card_box-8 {
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    background-image: url(deals/malle.jpg);
+    display: inline-block;
+    object-fit: cover;
+    background-size: cover;
+    position: relative;
+    box-shadow: 0 25px 50px rgba(0,0,0,0.55);
+    cursor: pointer;
+    
+    
+  }
+
+  .card_box-8 span {
+    position: absolute;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    top: -10px;
+    left: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card_box-8 span::before {
+    content: 'Premium';
+    position: absolute;
+    width: 150%;
+    height: 40px;
+    background-image: linear-gradient(45deg, #ff6547 0%, #ffb144  51%, #ff7053  100%);
+    transform: rotate(-45deg) translateY(-20px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.23);
+  }
+
+  
+
+
+
+
+
+
+
+
+
+  .item-9 {
+    display: grid;
+    grid-area: item-9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .card_box-9 {
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    background-image: url(deals/malibu.jpg);
+    display: inline-block;
+    object-fit: cover;
+    background-size: cover;
+    position: relative;
+    box-shadow: 0 25px 50px rgba(0,0,0,0.55);
+    cursor: pointer;
+    
+    
+  }
+
+  .card_box-9 span {
+    position: absolute;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    top: -10px;
+    left: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card_box-9 span::before {
+    content: 'Premium';
+    position: absolute;
+    width: 150%;
+    height: 40px;
+    background-image: linear-gradient(45deg, #ff6547 0%, #ffb144  51%, #ff7053  100%);
+    transform: rotate(-45deg) translateY(-20px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.23);
+  }
+
+  
+
+
+
+
+
+
+
+
+
+  .item-10 {
+    display: grid;
+    grid-area: item-10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .card_box-10 {
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    background-image: url(deals/peking.jpg);
+    display: inline-block;
+    object-fit: cover;
+    background-size: cover;
+    position: relative;
+    box-shadow: 0 25px 50px rgba(0,0,0,0.55);
+    cursor: pointer;
+    
+    
+  }
+  
+  .card_box-10 span {
+    position: absolute;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    top: -10px;
+    left: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card_box-10 span::before {
+    content: 'Premium';
+    position: absolute;
+    width: 150%;
+    height: 40px;
+    background-image: linear-gradient(45deg, #ff6547 0%, #ffb144  51%, #ff7053  100%);
+    transform: rotate(-45deg) translateY(-20px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.23);
+  }
+
+  
+
+
+
+
+
+
+
+
+  .item-11 {
+    display: grid;
+    grid-area: item-11;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .card_box-11 {
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    background-image: url(deals/bayern.jpg);
+    display: inline-block;
+    object-fit: cover;
+    background-size: cover;
+    position: relative;
+    box-shadow: 0 25px 50px rgba(0,0,0,0.55);
+    cursor: pointer;
+    
+    
+  }
+ 
+  .card_box-11 span {
+    position: absolute;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    top: -10px;
+    left: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card_box-11 span::before {
+    content: 'Premium';
+    position: absolute;
+    width: 150%;
+    height: 40px;
+    background-image: linear-gradient(45deg, #ff6547 0%, #ffb144  51%, #ff7053  100%);
+    transform: rotate(-45deg) translateY(-20px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.23);
+  }
+
+  
+
+
+
+
+
+
+
+  .item-12 {
+    display: grid;
+    grid-area: item-12;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .card_box-12 {
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    background-image: url(deals/cancun.jpg);
+    display: inline-block;
+    object-fit: cover;
+    background-size: cover;
+    position: relative;
+    box-shadow: 0 25px 50px rgba(0,0,0,0.55);
+    cursor: pointer;
+    
+    
+  }
+
+  .card_box-12 span {
+    position: absolute;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    top: -10px;
+    left: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card_box-12 span::before {
+    content: 'Premium';
+    position: absolute;
+    width: 150%;
+    height: 40px;
+    background-image: linear-gradient(45deg, #ff6547 0%, #ffb144  51%, #ff7053  100%);
+    transform: rotate(-45deg) translateY(-20px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.23);
+  }
+  
+
+
+
+
+
+  
