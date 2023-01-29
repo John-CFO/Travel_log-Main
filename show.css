@@ -23,9 +23,9 @@
 	margin-left: auto;
 	max-width: 800px
 }
-/* Basic appearance stuff ends here */
+/* --------------Basic appearance stuff ends here ----------*/
 
-/* Parallax Horizontal Scroller - by Bree Dulmage, 2020 */
+/* ----------Parallax Horizontal Scroller - by Bree Dulmage, 2020 ----------*/
 #proparallax {
 	display: block;
 	position: relative;
@@ -197,7 +197,7 @@
 
 
 
-    /* Mobile-Settings*/
+    /*-------------- Mobile-Settings-------------------*/
 
     @media (min-width: 320px) and (max-width: 480px) {
         .slider {

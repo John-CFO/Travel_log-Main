@@ -21,7 +21,7 @@ h3{
     margin-top: 20px;
 }
 
-
+/*-------------Position social Media------------*/
 .flex-footer {
     display: flex;
     justify-content: flex-end;
@@ -46,7 +46,7 @@ h3{
     transition: all 500ms ease-in-out;
 }
 
-
+/* ------------Grid for ReferLinks-----------*/
 .grid-info{
     display: grid;
     position: relative;
@@ -65,7 +65,7 @@ h3{
                         "item.5 item.6";
 }
 
-    /*Copyright*/
+    /*---------------Copyright--------------------*/
 
     .copy{
         color: #ffffff;
@@ -79,7 +79,7 @@ h3{
     
     
 
-        /*Navigation(Footer)*/
+        /*--------------Referlinks(Footer)--------------*/
     
     a:hover{
         text-decoration: underline;

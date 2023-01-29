@@ -12,7 +12,7 @@
 }
 
 
-    /*Logo-Titel*/
+    /*-----------------Logo-Titel-------------*/
 
 .logo {
     border: none;
@@ -58,7 +58,7 @@
 }
 
 
-    /*Search-Field*/
+    /*-----------------Search-Field--------------*/
 
     .search {
         display: -webkit-box;
@@ -128,7 +128,7 @@
 
 
 
-    /*Navigations-Bar Position*/
+    /*-----------Navigations-Bar Position-------------*/
 
     .nav-1{
         position: absolute;
@@ -168,7 +168,7 @@
     
 
 
-        /*Navigations-Bar Button Config.*/
+        /*-----------Navigations-Bar Button Config.---------------*/
 
     .box {
         width: 90px;
@@ -220,14 +220,14 @@
         border-color: #ffffff;
         height: 100%;
         transform: translateX(0);
-        transition: .3s transform linear, .3s height linear .3s;
+        transition: .2s transform linear, .2s height linear .3s;
     }
       
     .box:hover:after {
         border-color: #ffffff;
         height: 100%;
         transform: translateX(0);
-        transition: .3s transform linear, .3s height linear .5s;
+        transition: .2s transform linear, .2s height linear .2s;
     }
       
     
